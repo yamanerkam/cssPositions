@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    min-height: 200vh;
+}
+
+.parent {
+    width: 800px;
+    height: 400px;
+    padding: .25rem;
+    position: relative;
+    z-index: 10;
+    background-color: blueviolet;
+
+}
+
+
+
+
+.child {
+
+    width: 100px;
+    height: 200px;
+    padding: .25rem;
+
+}
+
+.child1 {
+
+    margin: 0px;
+    position: absolute;
+    left: 800px;
+    bottom: 20px;
+    background-color: burlywood;
+}
+
+.child2 {
+    position: sticky;
+    top: 10px;
+    background-color: grey;
+}
+
+.child3 {
+    position: fixed;
+    background-color: brown;
+}
+
+
+.parent2 {
+    width: 800px;
+    height: 800px;
+    padding: .25rem;
+    z-index: 2;
+    top: -30;
+    background-color: hotpink;
+}
+
+
+.child12 {
+
+
+    background-color: burlywood;
+}
+
+.child22 {
+
+    background-color: grey;
+}
+
+.child32 {
+    background-color: brown;
+}
